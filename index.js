@@ -4,9 +4,9 @@ var express = require('express');
 var request = require('superagent');
 var LineBot = require('line-bot-sdk');
 var client = LineBot.client({
-  channelID: 'YOUR_CHANNEL_ID',
-  channelSecret: 'YOUR_CHANNEL_SECRET',
-  channelMID: 'YOUR_CHANNEL_MID'
+  channelID: '1505328253',
+  channelSecret: 'f6f11098b8905181c18cd24aed6afe18',
+  channelMID: 'Ueea11cb904df2a7e959159282f98cb47'
 });
 
 var app = express();
